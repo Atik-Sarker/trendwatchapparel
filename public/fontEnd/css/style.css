@@ -1,0 +1,532 @@
+body {
+
+    font-family: jaf-facitweb, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    border: 0;
+    background: 0;
+    box-shadow: 0 0;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    color: #555;
+}
+
+a {
+    color: #555;
+    display: inline-block
+}
+
+a:hover,
+a:focus {
+    color: #555;
+    text-decoration: none !important;
+    outline: 0;
+    border: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #555
+}
+
+p {
+    color: #555;
+}
+
+
+
+button:focus {
+    outline: 0;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.allcaps {
+    text-transform: uppercase;
+}
+
+.section-padding {
+    padding: 50px 0;
+}
+
+.sec-padd-top {
+    padding-top: 50px;
+}
+
+.sec-padd-bottom {
+    padding-bottom: 50px;
+}
+
+.p10 {
+    padding: 10px 0px;
+}
+
+.mb30 {
+    margin-bottom: 30px
+}
+
+
+/*====SLIDER CSS START====*/
+
+.main-slider {
+    position: relative;
+}
+
+.slider-item {
+    height: 100vh;
+    width: 100% !important;
+    position: relative;
+    z-index: 9;
+}
+
+.slider-item img {
+    height: 100%;
+    max-width: 100%;
+}
+.slider-text {
+	position: absolute !important;
+	top: 50% !important;
+	transform: translateY(-50%) !important;
+	right: 25%;
+	text-align: center;
+	z-index: 1;
+	width: 50%;
+}
+.slider-text h1 {
+    font-family: fertigo-script, Georgia, "Times New Roman", Times, serif;
+    font-weight: 300;
+    text-shadow: 0 0 13px #000;
+    color: #fff;
+}
+
+.slider-text p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    text-shadow: 0 0 13px #000;
+    font-family: jaf-facitweb, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#slider {
+    position: relative;
+}
+
+
+/*===============main slider css end=============*/
+
+
+/*===============nav css end=============*/
+#home {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.nav {
+    width: 25%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 100%;
+    padding: 30px;
+}
+.main-menu ul li {
+    display: inline-block;
+    width: 100%;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    width: 100%;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+.main-menu .mtree.transit ul > li {
+    font-size: 12px;
+}
+
+.main-menu .mtree.transit {
+    background: transparent;
+}
+
+.main-menu .mtree.transit li.mtree-node > a::before {
+    color: #86B24B;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    font-size: 17px;
+}
+
+.main-menu ul li a:hover {
+    color: #86B24B !important;
+}
+
+.main-menu .mtree.transit li > a:hover,
+.main-menu .mtree.transit li.mtree-active > a,
+.main-menu .mtree.transit li.mtree-open > a {
+    background: transparent;
+}
+
+.main-menu .mtree.transit ul {
+    margin-left: 0;
+    padding-left: 8px;
+}
+.right-nav {
+	position: absolute;
+	right: 0;
+	height: 100vh;
+	width: 25%;
+	background: rgba(255,255,255,1);
+	top: 0;
+	z-index: 9999;
+    direction: rtl;
+    overflow-y: scroll
+}
+.right-nav-image {
+	height: 100%;
+	width: 100%;
+}
+.right-nav-image img {
+	height: 100%;
+	width: 100%;
+}
+.right-nav-logo {
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.right-nav-text {
+	text-align: left;
+	margin: 30px;
+	line-height: 1.8;
+}
+.right-nav-text-title {
+	font-size: 20px;
+}
+.right-nav-logo a {
+	margin: 20px 22px;
+	float: left;
+}
+/*===============nav css end=============*/
+
+/*===============rotate new start=============*/
+.news-slider {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: tranparent;
+    z-index: 99999;
+    width: 35%;
+    padding: 30px;
+}
+
+.news-slider .item {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.news-slider .item p {
+    color: #fff;
+}
+
+.news-slider .item .news-title {
+    color: #fff;
+    font-family: jaf-facitweb, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #5ebf55;
+    text-align: center;
+}
+
+.quick-contact ul {
+    text-align: center;
+}
+
+.quick-contact {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.quick-contact ul li p {
+    color: #e5e5e5;
+}
+
+.quick-contact img {
+    margin-bottom: 5px;
+}
+
+.quick-contact ul li {
+    margin: 5px 0;
+}
+
+.gateway {
+    position: absolute;
+    right: 28px;
+    bottom: 0;
+    z-index: 99999;
+}
+
+.gateway a {
+    color: #222;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sidebar-follow {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sidebar-title {
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 45px;
+    font-weight: 600;
+    color: #ddd;
+}
+
+.sidebar-title::after {
+    position: absolute;
+    left: -45px;
+    top: 8px;
+    width: 36px;
+    height: 2px;
+    background: #fff;
+    content: "";
+}
+
+.sidebar-follow ul li {
+    display: inline-block;
+    height: 32px;
+    width: 35px;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-right: 8px;
+    border: 1px solid #555;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.sidebar-follow ul li i {
+    color: #ddd;
+}
+
+/*===============rotate new end=============*/
+
+/*================================
+=======
+======= About page css start
+=======
+============================================*/
+
+.common-body .nav {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.common-body .main-content {
+    width: 50%;
+    padding: 50px;
+    float: left;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.common-body {
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about {
+    background: url(../images/about-banner.jpg);
+}
+
+.main-content {
+    padding: 50px;
+
+}
+
+.common-title {
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0;
+	background: #86B24B;
+	padding: 10px 9px;
+	color: #fff;
+}
+
+.common-title span {
+    color: #222;
+}
+
+.about-description {
+    color: #fff;
+    line-height: 1.8;
+}
+.customerinfo {
+	color: #fff;
+}
+.customer-title h3 {
+	color: #fff;
+	margin: 0;
+	padding: 11px 11px;
+	background: #86B24B;
+	margin: 18px 0;
+}
+.customer-info table tr {
+	line-height: 1.8;
+}
+#customers {
+	width: 100%;
+}
+.asosocates-item {
+	color: #f5f5f5;
+	margin-top: 25px;
+}
+.asosocates-item p{
+    color:#f5f5f5;
+}
+.company-name {
+	display: inline-block;
+	padding-bottom: 8px;
+}
+
+/*================================
+=======
+======= contact page css start
+=======
+============================================*/
+.contact-form {
+    margin-top: 30px;
+}
+.contact {
+    background: url(../images/contact-banner.jpg);
+}
+.default-form.contact-form.wow.slideInLeft {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 30px;
+	border-radius: 5px;
+}
+.contact-form input,
+.contact-form textarea {
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+}
+
+.btn-style-one {
+    background: rgba(134, 178, 75,0.7);
+    border: 0;
+    color: #fff;
+    padding: 10px 24px;
+}
+
+.contact-content .quick-contact ul li {
+	background: rgba(134, 178, 75,0.7);
+	width: 100%;
+	padding: 16px 16px;
+}
+
+.product-name{
+    color: #fff;
+}
+.product-image {
+	margin: 30px 0;
+}
+.product-image img{
+    width: 100%;
+}
+.product-info p{
+    color: #fff;
+}
+.office-title {
+	font-size: 18px;
+}
+.contact-details {
+	text-align: left !important;
+}
+.contact-details li i {
+	color: #fff;
+	font-size: 30px;
+	float: left;
+}
+.contact-details li i {
+	color: #fff;
+	font-size: 30px;
+	float: left;
+	width: 55px;
+}
+.contact-details li span {
+	color: #fff;
+	display: inline-block;
+}
+.contact-details li p {
+	padding: 6px 0;
+}
+.product-item {
+	height: 250px;
+	margin: 15px 0;
+}
+.product-item img {
+	width: 100%;
+	height: 100%;
+}
+.title-pd{
+    margin: 0px 0px 30px 0px ;
+}
+    
+span.invalid-feedback{
+    color: red;
+
+}
